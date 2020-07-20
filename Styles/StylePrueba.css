@@ -1,0 +1,35 @@
+body{
+    background-image: url(../images/david-monje-ogg_q2hEKkY-unsplash.jpg);
+    background-size: cover;
+    height: 860px;
+    
+
+}
+@font-face{
+    font-family: PR;
+    src: url(../Fonts/FrancoisOne-Regular.ttf) format('truetype');
+}
+
+article{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+article > div > section {
+
+    
+    font-size: x-large;
+    font-family: PR;
+
+}
+
+
+article > div > footer {
+
+    font-size: 18px;
+    font-family: PR;
+}
